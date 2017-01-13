@@ -1,0 +1,23 @@
+<resources>
+    <string name="appid">58049cf2</string>
+    <string name="app_name">SpeechDemo</string>
+    <string name="start">开始说话</string>
+    <string name="upload">上传词表</string>
+    <string name="read_voice">音频转文字</string>
+    <string name="text_begin">请开始说话…</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">UserName</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="clear">clear</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

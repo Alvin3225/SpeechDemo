@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.alvin.speechdemo.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_bg">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_bg"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_voice_text"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="@color/dack_gray"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:background="@color/WHITE"/>
+
+            <Button
+                android:id="@+id/bt_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onClick"
+                android:textSize="20dp"
+                android:text="@string/start"
+                android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/bt_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onClick"
+                android:textSize="20dp"
+                android:text="@string/upload"
+                android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/bt_read_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onClick"
+                android:textSize="20dp"
+                android:text="@string/read_voice"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
